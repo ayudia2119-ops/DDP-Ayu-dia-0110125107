@@ -6,7 +6,7 @@ st.header('Biodata Pribadi')
 nama = st.text_input('nama', max_chars=10)
 st.write(f'nama saya adalah {nama}')
 
-with st.form("biodata")
+with st.form("biodata"):
         st.write("Masukan biodata anda")
         nama = st.text_input("nama")
         email = st.text_input("email")
